@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Schema change proposals (Council)
+    url: https://council.onlyworlds.com
+    about: Changes to the 22 element types themselves go through Council governance, not this tracker.
+  - name: OnlyWorlds Discord
+    url: https://www.onlyworlds.com
+    about: Prefer chat? Drop it in the Discord (link on the site) — feedback worth tracking gets relayed here.

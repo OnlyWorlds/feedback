@@ -1,0 +1,32 @@
+name: Bug report
+description: Something broken or behaving wrong in any OnlyWorlds tool
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: surface
+    attributes:
+      label: Where?
+      options:
+        - Atlas
+        - Obsidian plugin
+        - API
+        - MCP server
+        - Website (onlyworlds.com)
+        - Docs
+        - Other / not sure
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what went wrong? Screenshots welcome.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: false

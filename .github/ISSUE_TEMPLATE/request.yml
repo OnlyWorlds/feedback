@@ -1,0 +1,26 @@
+name: Feature request / idea
+description: Something you want an OnlyWorlds tool to do
+title: "[request] "
+labels: ["request"]
+body:
+  - type: dropdown
+    id: surface
+    attributes:
+      label: Which tool?
+      options:
+        - Atlas
+        - Obsidian plugin
+        - API
+        - MCP server
+        - Website (onlyworlds.com)
+        - Docs
+        - Something new entirely
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What would you like?
+      description: What are you trying to do, and what would make it better? The problem matters more than the solution — describe what you're stuck on and we'll figure out the shape.
+    validations:
+      required: true
