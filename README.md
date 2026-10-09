@@ -29,3 +29,7 @@ Feedback posted on Discord or Reddit worth tracking gets relayed here, so nothin
 - **Surface**: `atlas` · `obsidian` · `api` · `mcp` · `website` · `docs`
 - **Type**: `bug` · `request` · `idea`
 - **Status**: `triaged` · `building` · `shipped` · `parked`
+
+## Licence
+
+MIT. See [LICENSE](LICENSE).
